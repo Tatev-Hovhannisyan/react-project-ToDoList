@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(177, 111, 240);
+  margin: 0;
+}
+
+.container{
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.h1{
+  color: rgb(36, 2, 53);
+
+}
+
+.input{
+  width: 300px;
+  height: 30px;
+box-sizing: border-box;
+}
+
+.add{
+  width: 50px;
+  height: 30px;
+    box-sizing: border-box;
+  border: none;
+  color: rgb(46, 1, 29);
+  cursor: pointer;
+}
+
+
+
+.ul{
+   padding: 0;
+   margin: 0;
+}
+.li{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    padding: 1.5 rem;
+ height: 30px;
+  width: 350px ;
+
+}
+
+ul li:nth-child(even){
+    background: #f9f9f9;
+}
+ul li:nth-child(odd) {
+  background: #d2b4cd;
+}
+
+ul li:hover{
+  background: #534f53;
+}
+
+.btnRemove{
+  position: absolute;
+  right: 0;
+ width: 30px;
+
+  color: #350435;
+
+}
